@@ -1,4 +1,4 @@
-# Ninja-Kiwi-Bin2.0-Decryptor
+# Bloons TD Battles 2 Decryptor
 An encryptor/decryptor for Ninja Kiwi's Bin2.0 encryption, which is used in Bloons TD Battles 2.
 
 Ninja Kiwi is a great game studio that makes much loved Tower Defense games. Sometimes some of their game files are encrypted to improve performance or restrict modding. One of the encryptions they've made is the Bin 2.0 encryption, which is used in Bloons TD Battles 2 to obscure the code for assets. This repo contains a single class called BinEncryption, which can be used to encrypt/decrypt any files whose contents have this encryption. This encrypt/decryptor was originally written in C++ by another modder who gave me permission to recreate it in C#. This C# version is a heavily refactored version of the original. It's been thoroughly documented with every variable/method/comment being as clear and concise as possible. It's also more modularized to increase usability and allow for more options like encrypting/decrypting zip files.
